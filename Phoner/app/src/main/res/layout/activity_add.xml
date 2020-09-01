@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        android:weightSum="1"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/noimage"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/takeAPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="TAKE A PHOTO"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded"
+            android:layout_weight="0.5"
+            android:ems="10" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/name_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/brand_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="Brand"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/display_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="Display"
+                android:inputType="text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+                <EditText
+                    android:id="@+id/fcamera_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="50"
+                    android:ems="10"
+                    android:hint="Front camera"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/rcamera_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="50"
+                    android:ems="10"
+                    android:hint="Rear camera"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/battery_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="Battery capacity" />
+            <EditText
+                android:id="@+id/memory_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="text"
+                app:layout_constraintTop_toBottomOf="@+id/battery_txt"
+                android:hint="Memory" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Add"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded" />
+
+</LinearLayout>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/n"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.7"
+            android:text="Name: "
+            android:textAlignment="textStart"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginRight="5dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/name_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_weight="0.3"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingLeft="100dp">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="20dp"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.5"
+            android:text="Brand: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/brand_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="0.5"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:text="Display: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/display_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="0.5"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/fc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:text="Front camera: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/fcamera_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="0.5"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/rc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:text="Rear camera: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/rcamera_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="0.5"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/bc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:text="Battery capacity: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/battery_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="0.5"
+            android:ems="10" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.5"
+            android:text="Memory: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textAlignment="textEnd"
+            android:layout_marginRight="5dp"
+            android:ems="10" />
+        <TextView
+            android:id="@+id/memory_txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="0.5"
+            android:ems="10" />
+    </LinearLayout>
+
+</LinearLayout>

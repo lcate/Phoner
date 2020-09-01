@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "776434497461",
+    "firebase_url": "https://phoner1.firebaseio.com",
+    "project_id": "phoner1",
+    "storage_bucket": "phoner1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776434497461:android:4c358d1a29d6e6eaca4bfc",
+        "android_client_info": {
+          "package_name": "com.example.phoner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776434497461-bfm5cga534ns2rsbc22e745uam4epj79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phoner",
+            "certificate_hash": "07a5579d8d0096e4eb49ca97bbe40e0568607c94"
+          }
+        },
+        {
+          "client_id": "776434497461-dbj0ng4rlqk780ofa5cl13cbbii47s59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2XlfoWqQ9x5Fsepd5QoyYlyfPkB7mbVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776434497461-dbj0ng4rlqk780ofa5cl13cbbii47s59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
